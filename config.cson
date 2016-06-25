@@ -1,0 +1,55 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "emacs-plus"
+      "emmet"
+      "tree-view"
+      "minimap"
+      "atom-ternjs"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+  emmet: {}
+  "exception-reporting":
+    userId: "300926d7-8799-246d-9a24-1d7d041e0101"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  linter:
+    lintOnFly: false
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-clang-atom": {}
+    "nuclide-console": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-hhvm": {}
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ios-simulator-logs": {}
+    "nuclide-objc":
+      enableAutomaticSquareBracketInsertion: true
+    "nuclide-ocaml": {}
+    "nuclide-react-native": {}
+    "nuclide-working-sets": {}
+    use:
+      "nuclide-flow": false
+  welcome:
+    showOnStartup: false
