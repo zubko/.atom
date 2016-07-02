@@ -2,6 +2,7 @@ packages: [
   "atom-no-tab-close-button"
   "atom-ternjs"
   "atomic-emacs"
+  "auto-update-packages"
   "clipboard-plus"
   "emacs-plus"
   "emmet"
