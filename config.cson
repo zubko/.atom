@@ -20,8 +20,8 @@
       "atom-ternjs"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
+    softWrap: true
   emmet: {}
   "exception-reporting":
     userId: "300926d7-8799-246d-9a24-1d7d041e0101"
@@ -37,6 +37,8 @@
     "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-hhvm": {}
+    "nuclide-file-tree":
+      showOpenFiles: false
     "nuclide-flow": {}
     "nuclide-format-js": {}
     "nuclide-hack": {}
@@ -50,6 +52,9 @@
     "nuclide-react-native": {}
     "nuclide-working-sets": {}
     use:
+      "nuclide-diagnostics-datatip-provider": false
+      "nuclide-diagnostics-store": false
+      "nuclide-diagnostics-ui": false
       "nuclide-flow": false
   welcome:
     showOnStartup: false
