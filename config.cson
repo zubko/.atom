@@ -21,6 +21,8 @@
     ]
   editor:
     invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
     softWrap: true
   emmet: {}
   "exception-reporting":
